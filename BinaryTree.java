@@ -96,7 +96,7 @@ public class BinaryTree {
     }
 
     public void inOrder() {
-        preOrder(root);
+        inOrder(root);
     }
 
     private void inOrder(Node node) {
@@ -109,7 +109,7 @@ public class BinaryTree {
     }
 
     public void postOrder() {
-        preOrder(root);
+        postOrder(root);
     }
 
     private void postOrder(Node node) {
